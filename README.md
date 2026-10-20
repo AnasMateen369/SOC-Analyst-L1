@@ -4,7 +4,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1200&color=36BCF7&center=true&vCenter=true&width=700&lines=Hands-on+SOC+projects;Detection+engineering+in+Microsoft+Sentinel;Incident+response+%26+threat+hunting;Windows+internals+%26+malware+analysis)](https://git.io/typing-svg)
 
-![Microsoft Sentinel](https://img.shields.io/badge/Microsoft%20Sentinel-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![IBM-QRadar](https://img.shields.io/badge/IBM%20QRadar-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Splunk](https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white)
 ![Elastic](https://img.shields.io/badge/Elastic-005571?style=for-the-badge&logo=elastic&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows11&logoColor=white)
