@@ -41,8 +41,7 @@ Hands-on security projects focused on **Soc-Analyst work**: detection engineerin
 
 | | Project | What it covers |
 |:-:|---|---|
-| 🛡️ | <a href="https://github.com/AnasMateen369/Detection-Lab">Detection-Lab</a> |Deployed the Splunk Universal Forwarder on a Windows target to capture and centralize Security Event Logs, specifically engineering alerts to detect Event ID 4625 (Failed Account Logins) for real-time brute-force threat identification.
-|
+| 🛡️ | <a href="https://github.com/AnasMateen369/Detection-Lab">Detection-Lab</a> |Deployed the Splunk Universal Forwarder on a Windows target to capture and centralize Security Event Logs, specifically engineering alerts to detect Event ID 4625 (Failed Account Logins) for real-time brute-force threat identification.|
 | 🧬 | [**edr-project/**](/edr-project) | Custom Windows EDR prototype detecting in-memory process injection (hollowing, shellcode remote thread, image-based) using a kernel driver, user-mode hook DLL, and rules-based chain scoring. Includes a layered Authenticode trust subsystem (path + LOLBin denylist + embedded/catalog signature verification) for false-positive suppression. Validated against SnakeKeylogger and a Defender-evasive injection sample. |
 | 🚨 | [**incident-response/**](/incident-response) | Case studies linking malware behavior, Sentinel detections, and analyst actions (triage → containment → recovery). |
 | 🎣 | [**phishing-analysis/**](/phishing-analysis) | Triage of real phishing emails: header and `Received` chain analysis, SPF/DKIM/DMARC verdicts, URL and infrastructure assessment, IOC extraction, written verdicts and recommended actions. |
@@ -119,13 +118,13 @@ flowchart LR
 
 | Category | Tools |
 |---|---|
-| **SIEM / XDR** | Microsoft Sentinel, Splunk, Elastic Security, Defender XDR |
-| **Query languages** | KQL, SPL, Sigma |
-| **Endpoint / DFIR** | Sysmon, Velociraptor, Hayabusa, Chainsaw, EvtxECmd |
-| **Network** | Wireshark, Zeek, Suricata |
+| **SIEM / XDR** | IBM QRadar, Splunk, Elastic Security, Defender XDR |
+| **Query languages** | SPL, |
+| **Endpoint / DFIR** | Sysmon, |
+| **Network** | Wireshark, |
 | **Malware analysis** | ProcMon, Any.run, Hybrid Analysis, VirusTotal, CyberChef |
 | **Vuln management** | Nessus Essentials, OpenVAS (Greenbone) |
-| **Identity** | Active Directory, Entra ID,|
+| **Identity** | Active Directory, |
 
 </div>
 
