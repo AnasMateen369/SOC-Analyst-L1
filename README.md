@@ -29,8 +29,8 @@
 | | |
 |---|---|
 | **Author** | Anas Mateen|
-| **Repo** | [github.com/xxx/xx](https://github.com/xxx/xx) |
-| **Email** | [![Gmail](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:anasmateen@email.com) |
+| **Repo** | [github.com/xxx/xx](https://github.com/AnasMateen369/SOC-Analyst-L1) |
+| **Email** | [![Gmail](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:anasmateen369@email.com) |
 | **LinkedIn** | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anas-mateen-2371a9373/) |
 
 Hands-on security projects focused on **Soc-Analyst work**
