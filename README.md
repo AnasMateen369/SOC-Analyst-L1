@@ -33,7 +33,7 @@
 | **Email** | [![Gmail](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:anasmateen@email.com) |
 | **LinkedIn** | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anas-mateen-2371a9373/) |
 
-Hands-on security projects focused on **Soc-Analyst work**: detection engineering in Microsoft Sentinel, incident response,
+Hands-on security projects focused on **Soc-Analyst work**
 
 ---
 
