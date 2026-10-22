@@ -118,9 +118,9 @@ flowchart LR
 
 | Category | Tools |
 |---|---|
-| **SIEM / XDR** | IBM QRadar, Splunk, Elastic Security, Defender XDR |
+| **SIEM / XDR** | IBM QRadar, Splunk, Wazuh, Defender XDR |
 | **Query languages** | SPL, |
-| **Endpoint / DFIR** | Sysmon, |
+| **Endpoint / DFIR** | Sysmon, Autopsy, VirusTotal, CyberChef, Mxtoolbox, regex101, |
 | **Network** | Wireshark, |
 | **Malware analysis** | ProcMon, Any.run, Hybrid Analysis, VirusTotal, CyberChef |
 | **Vuln management** | Nessus Essentials, OpenVAS (Greenbone) |
