@@ -26,7 +26,7 @@
 
 <h2>Wazuh installation on Ubuntu Server</h2>
 <pre>curl -sO https://packages.wazuh.com/4.7/wazuh-install.sh
-sudo bash ./wazuh-install.sh -a -i </pre>
+sudo ./wazuh-install.sh -a -i </pre>
 <ul>
   <li>Then Access Wazuh Dashboard Via Ubuntu (ip:443)</li>
 </ul>
