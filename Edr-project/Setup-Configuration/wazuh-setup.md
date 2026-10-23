@@ -30,3 +30,12 @@ sudo ./wazuh-install.sh -a -i </pre>
 <ul>
   <li>Then Access Wazuh Dashboard Via Ubuntu (ip:443)</li>
 </ul>
+
+<div align="center">
+<h2>Sysmon Installation on window 10</h2>
+</div>
+
+<pre>
+# Download Sysmon from Microsoft Sysinternals
+# Download sysmonconfig.xml from SwiftOnSecurity GitHub
+.\Sysmon64.exe -accepteula -i sysmonconfig.xml</pre>
