@@ -43,74 +43,15 @@ Hands-on security projects focused on **Soc-Analyst work**
 |:-:|---|---|
 | 🛡️ | <a href="https://github.com/AnasMateen369/Detection-Lab">Detection-Lab</a> |Deployed the Splunk Universal Forwarder on a Windows target to capture and centralize Security Event Logs, specifically engineering alerts to detect Event ID 4625 (Failed Account Logins) for real-time brute-force threat identification.|
 | 🧬 | <a href="https://github.com/AnasMateen369/SOC-Analyst-L1/tree/main/Edr-project"> Edr-project| Deployed wazuh on ubuntu server and collect event logs via victim window endpoint.
-| 🚨 | [**incident-response/**](/incident-response) | Case studies linking malware behavior, Sentinel detections, and analyst actions (triage → containment → recovery). |
+| 🚨 | [**incident-response/**](/incident-response) | 
 | 🎣 | [**phishing-analysis/**](/phishing-analysis) | Triage of real phishing emails: header and `Received` chain analysis, SPF/DKIM/DMARC verdicts, URL and infrastructure assessment, IOC extraction, written verdicts and recommended actions. |
 | 🦠 | [**malware-analysis/**](/malware-analysis) | Isolated lab for manual Windows malware analysis (ProcMon, Wireshark). Behaviors and TTPs documented per sample: SnakeKeylogger, Agent Tesla, Pulsar/Quasar RAT, WannaCry. |
-| 🔍 | [**vulnerability-management-lab/**](/vulnerability-management-lab) | Nessus Essentials and OpenVAS (Greenbone): scanning, triage, validation, prioritization, remediation, verification. Featured finding takes one critical (an unauthenticated root backdoor) end to end: manual validation, root-cause analysis, verified fix, two-scanner comparison. |
-| 🧱 | [**legacy-sentinel-lab/**](/legacy-sentinel-lab) | Foundational Microsoft Sentinel lab (architecture + detections). The associated IR case study lives in [**incident-response/**](/incident-response). |
+| 🔍 | [**vulnerability-management-lab/**](/vulnerability-management-lab) | 
+
 
 ---
 
-## 🛡️ Detection Lab Breakdown
 
-<details>
-<summary><b>Click to expand: detections included in <code>detection-lab/</code></b></summary>
-
-<br>
-
-### 🏢 Active Directory (6 detections)
-![AD](https://img.shields.io/badge/Active%20Directory-0078D4?style=flat-square&logo=microsoft&logoColor=white)
-
-| Detection | MITRE ATT&CK |
-|---|---|
-| Password spray | T1110.003 |
-| Kerberoasting | T1558.003 |
-| AS-REP roasting | T1558.004 |
-| DCSync | T1003.006 |
-| Privileged group changes | T1098 |
-| GPO abuse | T1484.001 |
-
-### 🔐 Okta Identity (4 detections)
-![Okta](https://img.shields.io/badge/Okta-007DC1?style=flat-square&logo=okta&logoColor=white)
-
-| Detection | MITRE ATT&CK |
-|---|---|
-| Password spray | T1110.003 |
-| MFA fatigue | T1621 |
-| Admin role grant | T1098.003 |
-| Policy tampering | T1562 |
-
-### ☁️ Entra ID (3 detections)
-![Entra](https://img.shields.io/badge/Entra%20ID-0089D6?style=flat-square&logo=microsoftazure&logoColor=white)
-
-| Detection | MITRE ATT&CK |
-|---|---|
-| Privileged role grant | T1098.003 |
-| Credential added to an app | T1098.001 |
-| OAuth permission grant | T1528 |
-
-### 🦠 Extras
-- Malware behavior detections built from, and validated against, samples from my own malware analysis
-- Sentinel → Velociraptor automated response playbook
-
-</details>
-
----
-
-## 🔄 Workflow Across Projects
-
-```mermaid
-flowchart LR
-    A[Malware Analysis] --> B[Behavior and TTPs]
-    B --> C[Sentinel Detections]
-    C --> D[Alert Triage]
-    D --> E[Containment]
-    E --> F[Recovery]
-    F --> G[Lessons Learned]
-    G --> C
-```
-
----
 
 ## 🧰 Tech Stack
 
@@ -124,7 +65,7 @@ flowchart LR
 | **Network** | Wireshark, |
 | **Malware analysis** | ProcMon, Any.run, Hybrid Analysis, VirusTotal, CyberChef |
 | **Vuln management** | Nessus Essentials, OpenVAS (Greenbone) |
-| **Identity** | Active Directory, |
+| **Identity** | ##Active Directory, |
 
 </div>
 
