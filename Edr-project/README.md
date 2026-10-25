@@ -77,7 +77,8 @@ This project builds a functional SOC environment from scratch, where cyberattack
 
 
 `![Dashboard](link-to-your-image.png)`
-`![Attack Logs](link-to-your-image.png)`
+[Sysmon Configure](<img width="1024" height="768" alt="configure-sysmon" src="https://github.com/user-attachments/assets/0af83757-8c93-4cb3-94b0-59ea82678ad1" />
+)
 
 ---
 
