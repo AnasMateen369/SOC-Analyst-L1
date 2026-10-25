@@ -76,8 +76,9 @@ This project builds a functional SOC environment from scratch, where cyberattack
 ## 📸 Screenshots
 
 
-`![Dashboard](link-to-your-image.png)`
-[Sysmon Configure] <img width="1024" height="768" alt="configure-sysmon" src="https://github.com/user-attachments/assets/ec2016e8-c2cc-4d10-8776-040502a4697b"/>
+`![Wazuh-Dashboard] <img width="855" height="768" alt="wazuh-agent" src="https://github.com/user-attachments/assets/d16ec182-5c08-4cfc-a64f-ebfc50027483" />
+
+[Sysmon-Configure] <img width="1024" height="768" alt="configure-sysmon" src="https://github.com/user-attachments/assets/ec2016e8-c2cc-4d10-8776-040502a4697b"/>
 
 
 ---
