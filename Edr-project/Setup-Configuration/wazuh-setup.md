@@ -43,7 +43,9 @@ sudo ./wazuh-install.sh -a -i </pre>
 <h2>install wazuh agent on window 10 like for endpoint</h2>
 <ul>
 <ol>Download Wazuh agent from Wazuh dashboard.</ol>
-<ol>Second install, enter Ubuntu Server IP as the Wazuh manager address</ol>
-<ol>Start the Wazuh agent service</ol>
-<ol>Verify agent appears as Active in Wazuh dashboard</ol>
+  <pre>Invoke-WebRequest -Uri https://wazuh.com -OutFile wazuh-agent.msi</pre>
+<ol>Second install, enter Ubuntu Server IP as the Wazuh manager address.</ol>
+  <pre>msiexec.exe /i wazuh-agent.msi /q WAZUH_MANAGER="192.168.10.6"</pre>
+<ol>Start the Wazuh agent service on window.</ol>
+<ol>Verify agent appears as Active in Wazuh dashboard can be visible.</ol>
 </ul>
