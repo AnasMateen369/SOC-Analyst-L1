@@ -85,7 +85,7 @@ This project builds a functional SOC environment from scratch, where cyberattack
 
 *   Explain what you learned about log ingestion.
 *   Explain how you tuned out false positives.
-*   Discuss the challenges of configuring Sysmon.
+*   the challenges of configuring Sysmon failed to xml configuration.
 
 ---
 
