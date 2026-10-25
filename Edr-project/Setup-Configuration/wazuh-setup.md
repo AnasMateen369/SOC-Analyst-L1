@@ -31,6 +31,7 @@ sudo ./wazuh-install.sh -a -i </pre>
   <li>Then Access Wazuh Dashboard Via Ubuntu (ip:443)</li>
 </ul>
 
+
 <h2>Sysmon Installation on window 10</h2>
 
 
@@ -38,3 +39,11 @@ sudo ./wazuh-install.sh -a -i </pre>
 # Download Sysmon from Microsoft Sysinternals
 # Download sysmonconfig.xml from SwiftOnSecurity GitHub
 .\Sysmon64.exe -accepteula -i sysmonconfig.xml</pre>
+
+<h2>install wazuh agent on window 10 like for endpoint</h2>
+<ul>
+<ol>Download Wazuh agent from Wazuh dashboard.</ol>
+<ol>Second install, enter Ubuntu Server IP as the Wazuh manager address</ol>
+<ol>Start the Wazuh agent service</ol>
+<ol>Verify agent appears as Active in Wazuh dashboard</ol>
+</ul>
