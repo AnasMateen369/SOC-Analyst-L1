@@ -89,34 +89,32 @@ forwarded by the Wazuh Agent to the Wazuh Manager, where correlation rules flag
 the repeated connection attempts as reconnaissance.
 </p>
 
-<h2>Wazuh Alerts</h2>
-<p>Wazuh generated alerts related to:</p>
-<ul>
-  <li>Network scanning activity</li>
-  <li>Suspicious connection attempts</li>
-  <li>Reconnaissance behavior</li>
-</ul>
-<p>The alerts were visible in the Wazuh dashboard.</p>
 
-<h2>Investigation Process</h2>
-<p>The following information was analyzed:</p>
-<ul>
-  <li>Source IP address</li>
-  <li>Target endpoint</li>
-  <li>Timestamp</li>
-  <li>Alert severity</li>
-  <li>Associated logs</li>
-</ul>
 
-<h2>Security Risk and Impact</h2>
+
+<h2>Wazuh Alert Monitoring</h2>
+
+<p>Wazuh identified security events associated with:</p>
+<ul>
+  <li>Port scanning and host discovery</li>
+  <li>Unusual connection requests</li>
+  <li>Potential reconnaissance activity</li>
+</ul>
 <p>
-Port scanning is an important indicator of early-stage attacker activity and
-can help security analysts identify:
+The detected events were reviewed through the Wazuh dashboard for further
+investigation.
 </p>
+
+<h2>Incident Investigation</h2>
+
+<p>The investigation focused on the following details:</p>
 <ul>
-  <li>Reconnaissance attempts</li>
-  <li>Unauthorized scanning</li>
-  <li>Potential intrusions</li>
+  <li>Attacker source IP and destination IP</li>
+  <li>Affected endpoint and scanned services</li>
+  <li>Event timestamps and alert severity</li>
+  <li>Relevant security logs and event evidence</li>
 </ul>
+
+
 
 
