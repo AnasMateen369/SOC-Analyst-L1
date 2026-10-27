@@ -43,10 +43,10 @@ Hands-on security projects focused on **Soc-Analyst work**
 |:-:|---|---|
 | 🛡️ | <a href="https://github.com/AnasMateen369/Detection-Lab">Detection-Lab</a> |Deployed the Splunk Universal Forwarder on a Windows target to capture and centralize Security Event Logs, specifically engineering alerts to detect Event ID 4625 (Failed Account Logins) for real-time brute-force threat identification.|
 | 🧬 | <a href="https://github.com/AnasMateen369/SOC-Analyst-L1/tree/main/Edr-project"> Edr-project| Deployed wazuh on ubuntu server and collect event logs via victim window endpoint.
-| 🚨 | [**incident-response/**](/incident-response) | 
+| 🚨 | [**incident-response/**](/incident-response) | coming soon!!
 | 🎣 | [**phishing-analysis/**](/phishing-analysis) | Triage of real phishing emails: header and `Received` chain analysis, SPF/DKIM/DMARC verdicts, URL and infrastructure assessment, IOC extraction, written verdicts and recommended actions. |
-| 🦠 | [**malware-analysis/**](/malware-analysis) | Isolated lab for manual Windows malware analysis (ProcMon, Wireshark). Behaviors and TTPs documented per sample: SnakeKeylogger, Agent Tesla, Pulsar/Quasar RAT, WannaCry. |
-| 🔍 | [**vulnerability-management-lab/**](/vulnerability-management-lab) | 
+| 🦠 | [**malware-analysis/**](/malware-analysis) | coming soon!! 
+| 🔍 | [**vulnerability-management-lab/**](/vulnerability-management-lab) | coming soon!! 
 
 
 ---
