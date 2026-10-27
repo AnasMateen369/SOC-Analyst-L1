@@ -85,8 +85,7 @@ This project builds a functional SOC environment from scratch, where cyberattack
 
 ## 📚 Lessons Learned
 
-*   Explain what you learned about log ingestion.
-*   Explain how you tuned out false positives.
+*    Gained hands-on experience navigating the Wazuh SIEM manager dashboard to filter, analyze, and map security events directly to the MITRE ATT&CK matrix.
 *   the challenges of configuring Sysmon failed to xml configuration.
 
 ---
